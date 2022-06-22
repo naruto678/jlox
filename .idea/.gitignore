@@ -2,4 +2,6 @@
 /shelf/
 /workspace.xml
 ../untitled104.iml
-../out
+../out/*
+../untitled104.iml
+../.idea
