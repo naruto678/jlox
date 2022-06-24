@@ -1,5 +1,6 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-../untitled104.iml
-../out
+../untitled104.iml/**
+../out/**
+

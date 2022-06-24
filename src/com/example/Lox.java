@@ -7,10 +7,12 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class Lox {
 
     static boolean hadError = false;
+    static final Logger log = Logger.getLogger(Lox.class.getName());
 
     public static void main(String[] args) throws IOException {
         if (args.length < 1) {
